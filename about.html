@@ -8,49 +8,36 @@
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Karla:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;1,6..72,300&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
 <div class="demobar" role="note">
-  <strong>Design mock-up</strong> &mdash; not the live clinic website. Wording is draft copy for layout only, and every clinic-specific detail appears as a
-  <span class="ph ph--inline">labelled placeholder</span> until you supply it. Forms here do not send or store anything.
+  <strong>Design mock-up</strong> &mdash; not the live clinic website. Wording is draft copy, every clinic-specific detail is a
+  <span class="ph ph--inline">labelled placeholder</span>, and no form here sends or stores anything.
 </div>
 
 <div class="emerg" role="note">
-  <span class="dot" aria-hidden="true"></span>
-  This website is not for emergencies. In an emergency call <strong>000</strong>.
+  <span class="dot" aria-hidden="true"></span> Not for emergencies. In an emergency call <strong>000</strong>.
 </div>
 
 <header class="site">
   <div class="wrap hdr">
-    <a class="brand" href="index.html">
-      <span class="mark" aria-hidden="true">
-        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="21" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M22 9v26M9 22h26" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="22" cy="22" r="6.5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
-      </span>
-      <span class="brandtext">
-        <span class="bt1">Nova Country</span>
-        <span class="bt2">Practice</span>
-      </span>
+    <a class="brand" href="index.html" aria-label="Nova Country Practice — home">
+      <span class="mark"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 4v32M4 20h32" stroke="currentColor" stroke-width="1"/><circle cx="20" cy="20" r="9" stroke="currentColor" stroke-width="1"/><circle cx="20" cy="20" r="2.6" fill="currentColor"/></svg></span>
+      <span class="brandtext"><span class="bt1">Nova Country</span><span class="bt2">Practice</span></span>
     </a>
-
-    <nav class="mainnav" aria-label="Main"><a href="index.html">Home</a><a href="about.html" class="on">About</a><a href="services.html">Services</a><a href="fees.html">Fees &amp; Billing</a><a href="patient-info.html">Patient Info</a><a href="requests.html">Scripts &amp; Referrals</a><a href="contact.html">Contact</a></nav>
-
+    <nav class="mainnav" aria-label="Main"><a href="about.html" class="on">About</a><a href="services.html">Services</a><a href="fees.html">Fees</a><a href="new-patients.html">New Patients</a><a href="patient-info.html">Patient Info</a><a href="requests.html">Scripts &amp; Referrals</a><a href="contact.html">Contact</a></nav>
     <div class="hdr-actions">
-      <div class="socials">
-        <a href="#" aria-label="Facebook (link to be supplied)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
-        <a href="#" aria-label="Instagram (link to be supplied)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm5 3.2a3.8 3.8 0 1 1 0 7.6 3.8 3.8 0 0 1 0-7.6zm0 2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6zM17.5 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
-      </div>
-      <a class="btn btn--tele" href="#">Telehealth</a>
-      <a class="btn btn--book" href="#">Book Appointment</a>
+      <a class="btn btn--ghost" href="#">Telehealth</a>
+      <a class="btn btn--solid" href="#">Book</a>
     </div>
-
     <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
-  <div class="mobnav" hidden><a href="index.html">Home</a><a href="about.html" class="on">About</a><a href="services.html">Services</a><a href="fees.html">Fees &amp; Billing</a><a href="patient-info.html">Patient Info</a><a href="requests.html">Scripts &amp; Referrals</a><a href="contact.html">Contact</a>
-    <div class="mobcta"><a class="btn btn--tele" href="#">Telehealth</a><a class="btn btn--book" href="#">Book Appointment</a></div>
+  <div class="mobnav" hidden><a href="about.html" class="on">About</a><a href="services.html">Services</a><a href="fees.html">Fees</a><a href="new-patients.html">New Patients</a><a href="patient-info.html">Patient Info</a><a href="requests.html">Scripts &amp; Referrals</a><a href="contact.html">Contact</a>
+    <div class="mobcta"><a class="btn btn--ghost" href="#">Telehealth</a><a class="btn btn--solid" href="#">Book Appointment</a></div>
   </div>
 </header>
 <main id="main">
@@ -67,9 +54,9 @@
   <div class="wrap two">
     <div class="two-l"><p class="kicker">Our story</p></div>
     <div class="two-r">
-      <p class="big"><span class="ph">Why the practice was opened and what it sets out to do — to be supplied</span></p>
-      <p><span class="ph">Practice history, ownership and any group/network affiliation — to be supplied</span></p>
-      <p><span class="ph">Accreditation status (e.g. AGPAL/QPA) and any teaching or registrar training role — to be supplied</span></p>
+      <p class="statement"><span class="ph">Why the practice was opened and what it sets out to do — to be supplied</span></p>
+      <p class="muted"><span class="ph">Practice ownership and any group affiliation — to be supplied</span></p>
+      <p class="muted"><span class="ph">Accreditation status and any teaching or registrar training role — to be supplied</span></p>
     </div>
   </div>
 </section>
@@ -82,20 +69,17 @@
         <div class="tm-img"><span class="imgph small">Photo<br><em>to be supplied</em></span></div>
         <h3><span class="ph">Name</span></h3>
         <p class="tm-role"><span class="ph">Role / title</span></p>
-        <p class="tm-q"><span class="ph">Qualifications and registration</span></p>
-        <p><span class="ph">Short bio, special interests and languages spoken — to be supplied</span></p>
+        <p class="muted"><span class="ph">Qualifications, special interests and languages — to be supplied</span></p>
       </article><article class="tm">
         <div class="tm-img"><span class="imgph small">Photo<br><em>to be supplied</em></span></div>
         <h3><span class="ph">Name</span></h3>
         <p class="tm-role"><span class="ph">Role / title</span></p>
-        <p class="tm-q"><span class="ph">Qualifications and registration</span></p>
-        <p><span class="ph">Short bio, special interests and languages spoken — to be supplied</span></p>
+        <p class="muted"><span class="ph">Qualifications, special interests and languages — to be supplied</span></p>
       </article><article class="tm">
         <div class="tm-img"><span class="imgph small">Photo<br><em>to be supplied</em></span></div>
         <h3><span class="ph">Name</span></h3>
         <p class="tm-role"><span class="ph">Role / title</span></p>
-        <p class="tm-q"><span class="ph">Qualifications and registration</span></p>
-        <p><span class="ph">Short bio, special interests and languages spoken — to be supplied</span></p>
+        <p class="muted"><span class="ph">Qualifications, special interests and languages — to be supplied</span></p>
       </article>
     </div>
     <p class="secnote">Team members are added or removed one at a time from the admin area &mdash; the grid reflows on its own.</p>
@@ -106,8 +90,8 @@
   <div class="wrap two">
     <div class="two-l"><p class="kicker">Practice team</p><h2>Nurses, admin &amp; visiting providers.</h2></div>
     <div class="two-r">
-      <p><span class="ph">Practice nurses, practice manager, reception team — names and roles to be supplied</span></p>
-      <p><span class="ph">Visiting or allied health providers and the days they attend — to be supplied</span></p>
+      <p class="muted"><span class="ph">Practice nurses, practice manager and reception team — to be supplied</span></p>
+      <p class="muted"><span class="ph">Visiting or allied health providers and their days — to be supplied</span></p>
     </div>
   </div>
 </section>
@@ -117,50 +101,48 @@
   <div class="wrap">
     <div class="fgrid">
       <div class="fcol fbrand">
-        <span class="mark" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="21" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M22 9v26M9 22h26" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="22" cy="22" r="6.5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></span>
+        <span class="mark"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 4v32M4 20h32" stroke="currentColor" stroke-width="1"/><circle cx="20" cy="20" r="9" stroke="currentColor" stroke-width="1"/><circle cx="20" cy="20" r="2.6" fill="currentColor"/></svg></span>
         <p class="fname">Nova Country Practice</p>
         <p class="fsub">General practice &middot; Cunnamulla, South West Queensland</p>
-        <div class="socials socials--f">
+        <div class="socials">
           <a href="#" aria-label="Facebook (link to be supplied)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
           <a href="#" aria-label="Instagram (link to be supplied)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm5 3.2a3.8 3.8 0 1 1 0 7.6 3.8 3.8 0 0 1 0-7.6zm0 2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6zM17.5 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
         </div>
       </div>
       <div class="fcol">
         <h4>Appointments</h4>
-        <a href="#">Book online</a>
-        <a href="#">Telehealth</a>
-        <a href="requests.html">Repeat prescriptions</a>
-        <a href="requests.html">Repeat referrals</a>
-        <a href="patient-info.html#cancel">Cancellations</a>
+        <a href="#">Book online</a><a href="#">Telehealth</a>
+        <a href="requests.html">Repeat prescriptions</a><a href="requests.html">Repeat referrals</a>
+        <a href="new-patients.html">New patients</a>
       </div>
       <div class="fcol">
         <h4>Practice</h4>
-        <a href="about.html">About the clinic</a>
-        <a href="about.html#team">Our team</a>
-        <a href="services.html">Services</a>
-        <a href="fees.html">Fees &amp; billing</a>
-        <a href="patient-info.html#new">New patients</a>
+        <a href="about.html">About</a><a href="about.html#team">Our team</a>
+        <a href="services.html">Services</a><a href="fees.html">Fees &amp; billing</a>
+        <a href="contact.html">Contact</a>
       </div>
       <div class="fcol">
         <h4>Information</h4>
         <a href="patient-info.html#afterhours">After hours</a>
         <a href="patient-info.html#results">Results &amp; recalls</a>
-        <a href="patient-info.html#privacy">Privacy &amp; confidentiality</a>
-        <a href="patient-info.html#feedback">Feedback &amp; complaints</a>
+        <a href="patient-info.html#privacy">Privacy</a>
+        <a href="patient-info.html#feedback">Feedback</a>
         <a href="patient-info.html#access">Accessibility</a>
       </div>
       <div class="fcol">
         <h4>Find us</h4>
         <p class="fline"><span class="ph">Street address to be supplied</span></p>
         <p class="fline"><span class="ph">Phone to be supplied</span></p>
-        <p class="fline"><span class="ph">Fax / practice email to be supplied</span></p>
         <p class="fline"><span class="ph">Opening hours to be confirmed</span></p>
       </div>
     </div>
     <div class="fbot">
       <p class="ack"><span class="ph">Optional acknowledgement of Country — wording to be supplied by the practice</span></p>
-      <p class="fmeta">&copy; <span class="yr">2026</span> Nova Country Practice &middot; <a href="patient-info.html#privacy">Privacy policy</a> &middot; <a href="patient-info.html#policies">Practice policies</a> &middot; <a href="patient-info.html#access">Accessibility</a></p>
-      <p class="fmeta small">Concept mock-up. Health information on this site is general in nature and does not replace advice from your doctor.</p>
+      <p class="fmeta">&copy; <span class="yr">2026</span> Nova Country Practice &nbsp;&middot;&nbsp;
+        <a href="patient-info.html#privacy">Privacy</a> &nbsp;&middot;&nbsp;
+        <a href="patient-info.html#policies">Practice policies</a> &nbsp;&middot;&nbsp;
+        <a href="patient-info.html#access">Accessibility</a></p>
+      <p class="fmeta small">Concept mock-up. Health information on this site is general and does not replace advice from your doctor.</p>
     </div>
   </div>
 </footer>

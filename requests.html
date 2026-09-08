@@ -4,53 +4,40 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Repeat Prescriptions & Referrals — Nova Country Practice | Design mock-up</title>
-<meta name="description" content="Request a repeat prescription or repeat referral online.">
+<meta name="description" content="Request a repeat prescription or a repeat referral online.">
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Karla:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;1,6..72,300&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
 <div class="demobar" role="note">
-  <strong>Design mock-up</strong> &mdash; not the live clinic website. Wording is draft copy for layout only, and every clinic-specific detail appears as a
-  <span class="ph ph--inline">labelled placeholder</span> until you supply it. Forms here do not send or store anything.
+  <strong>Design mock-up</strong> &mdash; not the live clinic website. Wording is draft copy, every clinic-specific detail is a
+  <span class="ph ph--inline">labelled placeholder</span>, and no form here sends or stores anything.
 </div>
 
 <div class="emerg" role="note">
-  <span class="dot" aria-hidden="true"></span>
-  This website is not for emergencies. In an emergency call <strong>000</strong>.
+  <span class="dot" aria-hidden="true"></span> Not for emergencies. In an emergency call <strong>000</strong>.
 </div>
 
 <header class="site">
   <div class="wrap hdr">
-    <a class="brand" href="index.html">
-      <span class="mark" aria-hidden="true">
-        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="21" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M22 9v26M9 22h26" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="22" cy="22" r="6.5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
-      </span>
-      <span class="brandtext">
-        <span class="bt1">Nova Country</span>
-        <span class="bt2">Practice</span>
-      </span>
+    <a class="brand" href="index.html" aria-label="Nova Country Practice — home">
+      <span class="mark"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 4v32M4 20h32" stroke="currentColor" stroke-width="1"/><circle cx="20" cy="20" r="9" stroke="currentColor" stroke-width="1"/><circle cx="20" cy="20" r="2.6" fill="currentColor"/></svg></span>
+      <span class="brandtext"><span class="bt1">Nova Country</span><span class="bt2">Practice</span></span>
     </a>
-
-    <nav class="mainnav" aria-label="Main"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="fees.html">Fees &amp; Billing</a><a href="patient-info.html">Patient Info</a><a href="requests.html" class="on">Scripts &amp; Referrals</a><a href="contact.html">Contact</a></nav>
-
+    <nav class="mainnav" aria-label="Main"><a href="about.html">About</a><a href="services.html">Services</a><a href="fees.html">Fees</a><a href="new-patients.html">New Patients</a><a href="patient-info.html">Patient Info</a><a href="requests.html" class="on">Scripts &amp; Referrals</a><a href="contact.html">Contact</a></nav>
     <div class="hdr-actions">
-      <div class="socials">
-        <a href="#" aria-label="Facebook (link to be supplied)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
-        <a href="#" aria-label="Instagram (link to be supplied)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm5 3.2a3.8 3.8 0 1 1 0 7.6 3.8 3.8 0 0 1 0-7.6zm0 2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6zM17.5 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
-      </div>
-      <a class="btn btn--tele" href="#">Telehealth</a>
-      <a class="btn btn--book" href="#">Book Appointment</a>
+      <a class="btn btn--ghost" href="#">Telehealth</a>
+      <a class="btn btn--solid" href="#">Book</a>
     </div>
-
     <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
-  <div class="mobnav" hidden><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="fees.html">Fees &amp; Billing</a><a href="patient-info.html">Patient Info</a><a href="requests.html" class="on">Scripts &amp; Referrals</a><a href="contact.html">Contact</a>
-    <div class="mobcta"><a class="btn btn--tele" href="#">Telehealth</a><a class="btn btn--book" href="#">Book Appointment</a></div>
+  <div class="mobnav" hidden><a href="about.html">About</a><a href="services.html">Services</a><a href="fees.html">Fees</a><a href="new-patients.html">New Patients</a><a href="patient-info.html">Patient Info</a><a href="requests.html" class="on">Scripts &amp; Referrals</a><a href="contact.html">Contact</a>
+    <div class="mobcta"><a class="btn btn--ghost" href="#">Telehealth</a><a class="btn btn--solid" href="#">Book Appointment</a></div>
   </div>
 </header>
 <main id="main">
@@ -65,8 +52,27 @@
 
 <section class="pad">
   <div class="wrap">
+    <div class="routes">
+      <article class="route route--rec">
+        <p class="kicker">Recommended route</p>
+        <h2>Request through AutoMed</h2>
+        <p>Your request goes straight into the practice&rsquo;s own system for a doctor to approve or decline, payment is only taken if it is approved, and you get status updates by SMS. Nothing sensitive touches this website.</p>
+        <div class="hero-cta">
+          <a class="btn btn--solid" href="#scripts-x">Request a repeat script</a>
+          <a class="btn btn--ghost" href="#referrals-x">Request a repeat referral</a>
+        </div>
+        <p class="tiny"><span class="ph">Destination links to be connected once the practice account is set up</span></p>
+      </article>
+      <article class="route">
+        <p class="kicker">Alternative</p>
+        <h2>Website request form</h2>
+        <p>If you would rather the website carried the form itself, the design below is what patients would see. It collects the same details and consent, and hands the request to the practice over an encrypted connection &mdash; but it duplicates something the practice system already does well.</p>
+        <a class="tlink" href="#scripts">See the form design &darr;</a>
+      </article>
+    </div>
+
     <div class="formwarn" role="note">
-      <strong>Demo form.</strong> Nothing here is sent, stored or received by anyone. Please do not type real patient details. In the live build these fields submit over an encrypted connection to the practice&rsquo;s nominated secure destination &mdash; not to ordinary email, and not into the website database.
+      <strong>Demo form.</strong> Nothing here is sent, stored or received by anyone. Please do not type real patient details.
     </div>
 
     <div class="tabs" role="tablist">
@@ -77,23 +83,22 @@
     <div class="formwrap" id="scripts">
       <div class="fintro">
         <h2>Repeat prescription request</h2>
-        <p>Use this form to request a repeat of a medicine you are already taking and have been prescribed by this practice.</p>
+        <p class="muted">For a repeat of a medicine you are already taking and have been prescribed by this practice.</p>
         <ul class="ticks">
-          <li>Allow <span class="ph">turnaround to be confirmed</span> &mdash; requests are processed during practice hours only.</li>
+          <li>Allow <span class="ph">turnaround to be confirmed</span> &mdash; processed during practice hours only.</li>
           <li>Some medicines cannot be repeated without an appointment.</li>
-          <li>If you need a medicine today, please phone the practice instead.</li>
+          <li>If you need a medicine today, phone the practice instead.</li>
         </ul>
       </div>
       <form class="frm" novalidate>
         <fieldset>
           <legend>Your details</legend>
           <div class="fgrid2">
-            <label class="f"><span class="flab">First name <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"></label>
-            <label class="f"><span class="flab">Last name <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"></label>
+            <label class="f"><span class="flab">First name <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"></label><label class="f"><span class="flab">Last name <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"></label>
             <label class="f"><span class="flab">Date of birth <span class="req" aria-hidden="true">*</span></span><input type="text" disabled autocomplete="off"><span class="fnote">Collected in the live build &mdash; disabled in this demo</span></label>
             <label class="f"><span class="flab">Phone <span class="req" aria-hidden="true">*</span></span><input type="tel" autocomplete="off"></label>
             <label class="f"><span class="flab">Email</span><input type="email" autocomplete="off"></label>
-            <label class="f"><span class="flab">Preferred contact method <span class="req" aria-hidden="true">*</span></span><select autocomplete="off"><option>Select…</option><option>Phone call</option><option>SMS</option><option>Email</option></select></label>
+            <label class="f"><span class="flab">Preferred contact <span class="req" aria-hidden="true">*</span></span><select autocomplete="off"><option>Select…</option><option>Phone call</option><option>SMS</option><option>Email</option></select></label>
           </div>
         </fieldset>
         <fieldset>
@@ -104,43 +109,38 @@
           </div>
           <label class="f"><span class="flab">Medicines requested <span class="req" aria-hidden="true">*</span></span><textarea rows="3" autocomplete="off"></textarea><span class="fnote">One per line, with strength and dose if you know it</span></label>
           <label class="f"><span class="flab">When did you last see a doctor about these? <span class="req" aria-hidden="true">*</span></span><select autocomplete="off"><option>Select…</option><option>In the last 3 months</option><option>3–6 months ago</option><option>6–12 months ago</option><option>More than 12 months ago</option><option>Not sure</option></select></label>
-          <label class="f"><span class="flab">Anything else we should know?</span><textarea rows="3" autocomplete="off"></textarea></label>
         </fieldset>
-        <fieldset>
-          <legend>Consent &amp; acknowledgement</legend>
-          
+        <fieldset><legend>Consent &amp; acknowledgement</legend>
     <div class="consent">
       <label class="chk"><input type="checkbox"> <span>I confirm I am a current patient of this practice and the details above are my own.</span></label>
       <label class="chk"><input type="checkbox"> <span>I understand this request is <strong>subject to review by a clinician</strong>, is not automatically approved, and may require an appointment before it can be issued.</span></label>
       <label class="chk"><input type="checkbox"> <span>I understand this form is not for urgent requests and is not monitored outside practice hours.</span></label>
-      <label class="chk"><input type="checkbox"> <span>I consent to the practice using the information I have provided to process this request, in line with the practice privacy policy.</span></label>
-    </div>
-        </fieldset>
+      <label class="chk"><input type="checkbox"> <span>I consent to the practice using this information to process my request, in line with the practice privacy policy.</span></label>
+    </div></fieldset>
         <div class="paybox">
-          <span class="paylab">Optional</span>
-          <p><strong>Online payment</strong> can be switched on for this form later. When enabled, a payment step appears here showing the fee from your published schedule, and the request is only lodged once payment succeeds.</p>
+          <span class="paylab">Payment</span>
+          <p>The fee is shown here and charged <strong>only if the request is approved</strong>, using the amount published on your fees page.</p>
         </div>
-        <button class="btn btn--book big" type="submit">Submit request</button>
-        <p class="formfoot">This form is not monitored outside practice hours and must not be used in an emergency. In an emergency call <strong>000</strong>.</p>
+        <button class="btn btn--solid big" type="submit">Submit request</button>
+        <p class="formfoot">Not monitored outside practice hours and not for emergencies. In an emergency call <strong class="red">000</strong>.</p>
       </form>
     </div>
 
     <div class="formwrap" id="referrals">
       <div class="fintro">
         <h2>Repeat referral request</h2>
-        <p>Use this form to request a repeat referral to a specialist you already see. A referral to a new specialist, or for a new problem, requires an appointment.</p>
+        <p class="muted">For a repeat referral to a specialist you already see. A new specialist, or a new problem, needs an appointment.</p>
         <ul class="ticks">
           <li>Allow <span class="ph">turnaround to be confirmed</span>.</li>
           <li>Referrals cannot be backdated.</li>
-          <li>If your specialist appointment is soon, please phone the practice.</li>
+          <li>If your specialist appointment is soon, phone the practice.</li>
         </ul>
       </div>
       <form class="frm" novalidate>
         <fieldset>
           <legend>Your details</legend>
           <div class="fgrid2">
-            <label class="f"><span class="flab">First name <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"></label>
-            <label class="f"><span class="flab">Last name <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"></label>
+            <label class="f"><span class="flab">First name <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"></label><label class="f"><span class="flab">Last name <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"></label>
             <label class="f"><span class="flab">Date of birth <span class="req" aria-hidden="true">*</span></span><input type="text" disabled autocomplete="off"><span class="fnote">Collected in the live build &mdash; disabled in this demo</span></label>
             <label class="f"><span class="flab">Phone <span class="req" aria-hidden="true">*</span></span><input type="tel" autocomplete="off"></label>
             <label class="f"><span class="flab">Email</span><input type="email" autocomplete="off"></label>
@@ -150,31 +150,26 @@
         <fieldset>
           <legend>Referral details</legend>
           <div class="fgrid2">
-            <label class="f"><span class="flab">Specialist name <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"></label>
-            <label class="f"><span class="flab">Specialty <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"><span class="fnote">e.g. cardiology, dermatology</span></label>
+            <label class="f"><span class="flab">Specialist name <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"></label><label class="f"><span class="flab">Specialty <span class="req" aria-hidden="true">*</span></span><input type="text" autocomplete="off"><span class="fnote">e.g. cardiology, dermatology</span></label>
             <label class="f"><span class="flab">Specialist practice / location</span><input type="text" autocomplete="off"></label>
             <label class="f"><span class="flab">Date of your appointment</span><input type="text" autocomplete="off"><span class="fnote">If you already have one booked</span></label>
           </div>
           <label class="f"><span class="flab">Have you seen this specialist before? <span class="req" aria-hidden="true">*</span></span><select autocomplete="off"><option>Select…</option><option>Yes — this is a repeat referral</option><option>No — this is a new referral</option></select></label>
           <label class="f"><span class="flab">Reason for referral <span class="req" aria-hidden="true">*</span></span><textarea rows="3" autocomplete="off"></textarea></label>
-          <label class="f"><span class="flab">How would you like to receive it? <span class="req" aria-hidden="true">*</span></span><select autocomplete="off"><option>Select…</option><option>Sent directly to the specialist</option><option>Collect from reception</option><option>Post</option></select></label>
         </fieldset>
-        <fieldset>
-          <legend>Consent &amp; acknowledgement</legend>
-          
+        <fieldset><legend>Consent &amp; acknowledgement</legend>
     <div class="consent">
       <label class="chk"><input type="checkbox"> <span>I confirm I am a current patient of this practice and the details above are my own.</span></label>
       <label class="chk"><input type="checkbox"> <span>I understand this request is <strong>subject to review by a clinician</strong>, is not automatically approved, and may require an appointment before it can be issued.</span></label>
       <label class="chk"><input type="checkbox"> <span>I understand this form is not for urgent requests and is not monitored outside practice hours.</span></label>
-      <label class="chk"><input type="checkbox"> <span>I consent to the practice using the information I have provided to process this request, in line with the practice privacy policy.</span></label>
-    </div>
-        </fieldset>
+      <label class="chk"><input type="checkbox"> <span>I consent to the practice using this information to process my request, in line with the practice privacy policy.</span></label>
+    </div></fieldset>
         <div class="paybox">
-          <span class="paylab">Optional</span>
-          <p><strong>Online payment</strong> can be added to this form on the same basis as the prescription form, using the fee published on your fees page.</p>
+          <span class="paylab">Payment</span>
+          <p>Charged on the same basis as the prescription request &mdash; <strong>only if approved</strong>.</p>
         </div>
-        <button class="btn btn--book big" type="submit">Submit request</button>
-        <p class="formfoot">This form is not monitored outside practice hours and must not be used in an emergency. In an emergency call <strong>000</strong>.</p>
+        <button class="btn btn--solid big" type="submit">Submit request</button>
+        <p class="formfoot">Not monitored outside practice hours and not for emergencies. In an emergency call <strong class="red">000</strong>.</p>
       </form>
     </div>
   </div>
@@ -185,50 +180,48 @@
   <div class="wrap">
     <div class="fgrid">
       <div class="fcol fbrand">
-        <span class="mark" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="21" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M22 9v26M9 22h26" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="22" cy="22" r="6.5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></span>
+        <span class="mark"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 4v32M4 20h32" stroke="currentColor" stroke-width="1"/><circle cx="20" cy="20" r="9" stroke="currentColor" stroke-width="1"/><circle cx="20" cy="20" r="2.6" fill="currentColor"/></svg></span>
         <p class="fname">Nova Country Practice</p>
         <p class="fsub">General practice &middot; Cunnamulla, South West Queensland</p>
-        <div class="socials socials--f">
+        <div class="socials">
           <a href="#" aria-label="Facebook (link to be supplied)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
           <a href="#" aria-label="Instagram (link to be supplied)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm5 3.2a3.8 3.8 0 1 1 0 7.6 3.8 3.8 0 0 1 0-7.6zm0 2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6zM17.5 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
         </div>
       </div>
       <div class="fcol">
         <h4>Appointments</h4>
-        <a href="#">Book online</a>
-        <a href="#">Telehealth</a>
-        <a href="requests.html">Repeat prescriptions</a>
-        <a href="requests.html">Repeat referrals</a>
-        <a href="patient-info.html#cancel">Cancellations</a>
+        <a href="#">Book online</a><a href="#">Telehealth</a>
+        <a href="requests.html">Repeat prescriptions</a><a href="requests.html">Repeat referrals</a>
+        <a href="new-patients.html">New patients</a>
       </div>
       <div class="fcol">
         <h4>Practice</h4>
-        <a href="about.html">About the clinic</a>
-        <a href="about.html#team">Our team</a>
-        <a href="services.html">Services</a>
-        <a href="fees.html">Fees &amp; billing</a>
-        <a href="patient-info.html#new">New patients</a>
+        <a href="about.html">About</a><a href="about.html#team">Our team</a>
+        <a href="services.html">Services</a><a href="fees.html">Fees &amp; billing</a>
+        <a href="contact.html">Contact</a>
       </div>
       <div class="fcol">
         <h4>Information</h4>
         <a href="patient-info.html#afterhours">After hours</a>
         <a href="patient-info.html#results">Results &amp; recalls</a>
-        <a href="patient-info.html#privacy">Privacy &amp; confidentiality</a>
-        <a href="patient-info.html#feedback">Feedback &amp; complaints</a>
+        <a href="patient-info.html#privacy">Privacy</a>
+        <a href="patient-info.html#feedback">Feedback</a>
         <a href="patient-info.html#access">Accessibility</a>
       </div>
       <div class="fcol">
         <h4>Find us</h4>
         <p class="fline"><span class="ph">Street address to be supplied</span></p>
         <p class="fline"><span class="ph">Phone to be supplied</span></p>
-        <p class="fline"><span class="ph">Fax / practice email to be supplied</span></p>
         <p class="fline"><span class="ph">Opening hours to be confirmed</span></p>
       </div>
     </div>
     <div class="fbot">
       <p class="ack"><span class="ph">Optional acknowledgement of Country — wording to be supplied by the practice</span></p>
-      <p class="fmeta">&copy; <span class="yr">2026</span> Nova Country Practice &middot; <a href="patient-info.html#privacy">Privacy policy</a> &middot; <a href="patient-info.html#policies">Practice policies</a> &middot; <a href="patient-info.html#access">Accessibility</a></p>
-      <p class="fmeta small">Concept mock-up. Health information on this site is general in nature and does not replace advice from your doctor.</p>
+      <p class="fmeta">&copy; <span class="yr">2026</span> Nova Country Practice &nbsp;&middot;&nbsp;
+        <a href="patient-info.html#privacy">Privacy</a> &nbsp;&middot;&nbsp;
+        <a href="patient-info.html#policies">Practice policies</a> &nbsp;&middot;&nbsp;
+        <a href="patient-info.html#access">Accessibility</a></p>
+      <p class="fmeta small">Concept mock-up. Health information on this site is general and does not replace advice from your doctor.</p>
     </div>
   </div>
 </footer>
